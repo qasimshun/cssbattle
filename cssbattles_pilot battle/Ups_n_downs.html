@@ -1,0 +1,41 @@
+<div class="big-box"><div class="one"></div>
+<div class="small-box"><div class="two"></div>
+<div class="three"></div>
+  </div>
+</div>
+<style>
+  body {
+    background: #62306D;
+  }
+  .one, .two, .three {
+    background: #F7EC7D;
+    width: 100px;
+    height: 100px;
+    
+  }
+  .big-box {
+    display: flex;
+    flex-direction:column;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .small-box {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .one {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin: 0 auto;
+  }
+  .two, .three {
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    float: left;
+  }
+</style>
