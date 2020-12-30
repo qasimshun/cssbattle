@@ -1,0 +1,82 @@
+
+<div class="big-box">
+<div class="one"></div>
+<div class="two"></div>
+<div class="three"></div>
+<div class="four"></div>
+<div class="five"></div>
+<div class="six"></div>
+<div class="seven"></div>
+<div class="eight"></div>
+<div class="nine"></div>
+</div>
+<style>
+  body {
+    background:#6592CF;
+    margin: 0;
+    padding: 0;
+  }
+  .big-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+    height: 300px;
+  }
+  .one, .three, .five, .seven {
+    width: 20px;
+    height: 100px;
+    background: #060F55;
+    border-top-right-radius: 70px;
+    border-top-left-radius: 70px;
+    position: absolute;
+    bottom: 150px;
+  }
+  .one {
+    left: 30px;
+  }
+  .three {
+    left: 70px;
+  }
+  .five {
+    left: 110px;
+  }
+  .seven {
+    left: 150px;
+  }
+  .two, .four, .six {
+    width: 20px;
+    height: 100px;
+    background: #6592CF;
+    border-bottom-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+    position: absolute;
+    bottom: 140px;
+    z-index: 1;
+  }
+  .two {
+    left: 50px;
+  }
+  .six {
+    left: 130px;
+  }
+  .eight {
+    width: 140px;
+    height: 100px;
+    background: #060F55;
+    position: absolute;
+    bottom: 50px;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius:70px;
+  }
+  .nine {
+    width: 20px;
+    height: 60px;
+    background: #060F55;
+    position: absolute;
+    bottom: 0;
+  }
+</style>
