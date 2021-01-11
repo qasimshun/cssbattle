@@ -1,0 +1,67 @@
+<div class="big-box">
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+    <div class="four"></div>
+    <div class="five"></div>
+    <div class="six"></div>
+    <div class="seven"></div>
+  </div>
+  <style>
+    body {
+      background: #191210;
+    }
+    .big-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 300px;
+      height: 283px;
+      margin: auto;
+      position: relative;
+    }
+    .one {
+         width: 140px;
+      height: 140px;
+      background: #ECA03D;
+      border-radius: 50%;
+      position: absolute;
+    }
+    .two {
+      width: 100px;
+      height: 100px;
+      background: #191210;
+      z-index: 1;
+      border-radius: 50%;
+      position: absolute;
+    }
+    .three {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      z-index: 2;
+      background: #84271C;
+      border-radius: 50%;
+    }
+    .four {
+      width: 60px;
+      height: 30px;
+      border: 20px solid #ECA03D;
+      border-top: none;
+      border-radius: 0 0 100px 100px;
+      position: absolute;
+      left: 0;
+      top: 142px;
+    }
+    .five {
+      width: 60px;
+      height: 30px;
+      border: 20px solid #ECA03D;
+      border-bottom: none;
+       border-radius: 100px 100px 0 0;
+      position: absolute;
+      right: 0;
+      top: 92px;
+    }
+    
+  </style>
